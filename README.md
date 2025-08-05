@@ -26,7 +26,7 @@ Este projeto é ideal para quem deseja explorar métricas de desempenho técnico
 
 ## 📊 Fonte de Dados
 
-Os dados utilizados neste projeto são obtidos do arquivo **`campeonato-brasileiro-estatisticas-full.csv`**, que é um dataset público de estatísticas do Campeonato Brasileiro de Futebol. Este arquivo oferece informações detalhadas sobre o desempenho de cada clube em cada partida, como:
+Os dados utilizados neste projeto são obtidos do arquivo **`campeonato-brasileiro-estatisticas-full.csv`**, que é um dataset de estatísticas do Campeonato Brasileiro de Futebol obtido através do repositório https://github.com/adaoduque/Brasileirao_Dataset. Este arquivo oferece informações detalhadas sobre o desempenho de cada clube em cada partida, como:
 * `partida_id`: Identificador único da partida.
 * `rodata`: Número da rodada.
 * `clube`: Nome do clube.
