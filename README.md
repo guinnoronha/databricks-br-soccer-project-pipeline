@@ -40,9 +40,6 @@ Os dados utilizados neste projeto são obtidos do arquivo **`campeonato-brasilei
 
 O projeto segue a arquitetura de Data Lakehouse com três camadas principais:
 
-![Arquitetura Data Lakehouse](https://www.databricks.com/wp-content/uploads/2020/02/blog-data-lakehouse-architecture.png)
-_Fonte da imagem: Databricks Blog_
-
 ### 1. 🥉 Camada Bronze (Raw Data)
 
 * **Objetivo:** Ingestão dos dados brutos "as-is" (como estão) do arquivo CSV.
