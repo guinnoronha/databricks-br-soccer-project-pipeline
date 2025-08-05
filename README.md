@@ -15,6 +15,15 @@ Este projeto é ideal para quem deseja explorar métricas de desempenho técnico
 * **Delta Lake:** Formato de armazenamento de dados open-source que traz confiabilidade, performance e transações ACID para data lakes.
 * **Python:** Linguagem de programação para script dos notebooks.
 
+## 📂 Estrutura do Projeto
+
+.<br>
+├── notebooks/<br>
+│   ├── 01_Bronze_Layer.py<br>
+│   ├── 02_Silver_Layer.py<br>
+│   └── 03_Gold_Layer.py<br>
+└── README.md
+
 ## 📊 Fonte de Dados
 
 Os dados utilizados neste projeto são obtidos do arquivo **`campeonato-brasileiro-estatisticas-full.csv`**, que é um dataset público de estatísticas do Campeonato Brasileiro de Futebol. Este arquivo oferece informações detalhadas sobre o desempenho de cada clube em cada partida, como:
@@ -128,3 +137,10 @@ FROM gold_clube_estatisticas_temporada
 WHERE ano_temporada = (SELECT MAX(ano_temporada) FROM gold_clube_estatisticas_temporada) -- Pega a última temporada disponível
 ORDER BY media_chutes_no_alvo_por_jogo DESC
 LIMIT 10;
+```
+
+## Criado por
+
+**Guilherme Noronha Mello**<br>
+**GitHub:** https://github.com/guinnoronha<br>
+**Linkedin:** https://www.linkedin.com/in/guilherme-noronha-mello/
